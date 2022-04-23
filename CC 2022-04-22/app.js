@@ -7,3 +7,4 @@ function sumMix(x){
     let newArr = x.map(num=>Number(num))
     return newArr.reduce( (acc, c) => acc + c)
   }
+  
