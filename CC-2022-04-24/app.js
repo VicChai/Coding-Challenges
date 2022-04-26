@@ -2,13 +2,8 @@
 
 // Return True if yes, False otherwise :)
 
-
 function hero(bullets, dragons){
     //Get Coding!
-        if(bullets/2 >= dragons) {
-          return true;
-        } else {
-          return false;
-        }
-    }
+    return bullets/2 >= dragons ? true : false;
+}   
     
