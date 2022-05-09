@@ -21,4 +21,4 @@ function points(games) {
       nums[0] > nums[2] ? total = total + 3 : nums[0] === nums[2] ? total = total + 1 : total  
     })
     return total
-    
+}    
