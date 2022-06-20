@@ -8,7 +8,5 @@
 
 function spEng(sentence){
     //write your code here
-      let arr = sentence.toLowerCase().split(' ')
-      let filtered = arr.filter(el => el.indexOf('english') !== -1)
-      return filtered.length >= 1 ? true: false
-    }
+    return sentence.toLowerCase().indexOf('english') !== -1
+}
