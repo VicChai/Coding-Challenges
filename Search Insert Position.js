@@ -2,6 +2,13 @@
 
 // You must write an algorithm with O(log n) runtime complexity.
 
+// var searchInsert = function (nums, target) {
+//   for (let i = 0; i < nums.length; i++) {
+//     if (nums[i] >= target) return i;
+//   }
+//   return nums.length;
+// };
+
 var searchInsert = function (nums, target) {
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] >= target) return i;
