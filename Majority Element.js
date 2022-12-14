@@ -17,7 +17,6 @@
  */
 var majorityElement = function (nums) {
   let count = {};
-  let largest = "";
   for (let num of nums) {
     count[num] ? count[num]++ : (count[num] = 1);
   }
