@@ -22,4 +22,5 @@ var runningSum = function (nums) {
     nums[i] += nums[i - 1];
   }
   return nums;
+  w;
 };
