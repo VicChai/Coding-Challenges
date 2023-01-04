@@ -38,3 +38,12 @@ var fib = function (n) {
 
   return fib(n - 1) + fib(n - 2);
 };
+
+var fib = function (n) {
+  if (n === 0) result = 0;
+  if (n === 1) result = 1;
+  else if (n > 1) {
+    result = fib(n - 1) + fib(n - 2);
+  }
+  return result;
+};
