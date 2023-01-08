@@ -19,7 +19,8 @@
 // [-5,-5,7,7,12,0] # should return [-10,14,12,0]
 
 function sumConsecutives(s) {
-  // your code'
+  // your code'  
+  /test
   let arr = [];
   let sum = 0;
   for (let i = 0; i < s.length; i++) {
